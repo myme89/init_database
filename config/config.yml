@@ -1,0 +1,22 @@
+server:
+  server_mysql:
+    dbusername: nhatnt
+    dbpassword: 1
+    dbname: test
+    dbhost: 127.0.0.1
+    dbport: 3306
+
+  server_postgressql:
+    dbusername: postgres
+    dbpassword: 1
+    dbname: postgres
+    dbhost: localhost
+    dbport: 5432
+
+  server_levedb:
+    pathfile: /home/nhatnt/nhatnt/db/levedb
+
+  server_mongodb:
+    dbusername: mongodb
+    dbhost: localhost
+    dbport: 27017
