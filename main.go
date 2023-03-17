@@ -32,6 +32,8 @@ func main() {
 			fmt.Println("Error connecting to database : error=% ", err)
 		}
 		fmt.Println("Successfully Leve DB connected!")
+		levedb.PutData()
+		levedb.GetData()
 
 		fmt.Println("/************************************************************************/")
 
